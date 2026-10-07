@@ -1,45 +1,39 @@
-# DDO-SALES 🛒
+# DDO's Restaurant 🍽️
 
-Welcome to **DDOSales**, a modern and responsive e-commerce web application designed to showcase and sell trending products at unbeatable prices.
+Welcome to **DDO's Restaurant**, a modern, responsive website designed to showcase a mouth-watering menu, highlight daily chef specials, and allow customers to explore dining experiences with ease.
+
+---
 
 ## ✨ Features
 
-- **Hero Banner:** Eye-catching introductory section with a prominent call-to-action "Shop Now" button.
-- **Dynamic Promo Bar:** Built-in promotional notification banner highlighting current discount codes (e.g., 20% off electronics).
-- **Featured Products Section:** "Top Products of the Day" showcases items with clean image cards, badges, and titles.
-- **Interactive Navigation:** Clean header featuring quick links to Home, Products, About, Contact, Login, and an active shopping cart counter.
-- **Responsive Design:** Fully optimized to look great across desktop, tablet, and mobile displays.
+- **Hero Banner:** Welcoming introduction with quick actions to "View Menu" or "Reserve a Table."
+- **Dynamic Promo Bar:** Displays active restaurant offers, seasonal discounts, and happy hour announcements.
+- **Interactive Menu Section:** Categorized dishes (Appetizers, Main Courses, Desserts, Drinks) with descriptions, pricing, and visual cards.
+- **Table Reservation Modal/Form:** Simple interactive layout for customers to book a table online.
+- **Customer Reviews & Testimonials:** Highlighted feedback and ratings from happy diners.
+- **Responsive Layout:** Powered by Bootstrap to ensure a flawless experience on desktop, tablet, and mobile devices.
+
+---
 
 ## 🛠️ Tech Stack
 
-- **HTML5:** Semantic structure for the layout.
-- **CSS3:** Custom styling, gradients, and flexbox/grid configurations.
-- **JavaScript:** (Optional/Planned) For shopping cart counters and smooth navigation interactions.
+- **HTML5:** Semantic markup structure.
+- **CSS3:** Custom styling, color palettes, and custom animations.
+- **Bootstrap 5:** Grid layout, navbar, modals, buttons, and responsive utility classes.
+- **JavaScript:** Interactive menu filters, smooth scrolling, modal handling, and reservation updates.
+
+---
 
 ## 📂 Project Structure
 
 ```text
-├── Assets/
+├── assets/
 │   ├── css/
-│   │   └── style.css      # Core website styles and themes
+│   │   └── style.css
+   ├── bootstrap/
+│   │                      # Custom styles and Bootstrap overrides
 │   ├── js/
-│   │   └── script.js      # Cart dynamics and animations
-│   └── images/            # Product and layout imagery
-├── pages/                 # Inner site directories (About, Contact, etc.)
-└── index.html             # Landing page entry point
-```
-
-## 🚀 Getting Started
-
-To run this project locally, simply follow these steps:
-
-1. **Clone the repository:**
-   ```bash
-   git clone https://github.com
-   ```
-2. **Navigate into the project folder:**
-   ```bash
-   cd DDOSales
-   ```
-3. **Open the site:**
-   Double-click the `index.html` file to launch it instantly in any modern modern web browser.
+│   │   └── script.js        # Dynamic interactions, menu filtering, and scripts
+│   └── images/            # Food gallery, logo, and background assets
+├── pages/                 # Additional pages (About, Full Menu, Contact, Reservations)
+└── index.html             # Main restaurant landing page
